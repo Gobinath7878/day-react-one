@@ -74,3 +74,30 @@ hr{
   background-color: rgb(83, 83, 234);
   color: aliceblue;
 }
+
+@media (max-width:998px) {
+.container{
+  display: block;
+}
+.card-container{
+  display: block;
+  margin-left: 30px;
+}
+.card-1{
+  align-items: center;
+  text-align: center;
+}
+.head-value{
+ padding-top: 20px;
+}
+hr{
+  width: 350px;
+  background-color: rgb(172, 171, 171);
+  border: none;
+  height: 1px;
+}
+.button:hover{
+  background-color: rgb(75, 75, 243);
+  margin-left: 10px;
+}
+}
